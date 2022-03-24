@@ -2,6 +2,7 @@
   font-family: 'pokemon-solid';
   src: url('../assets/fonts/pokemon-solid.ttf');
 }	
+
 /* Variables */
 :root {
   --red: #ee1c25;
@@ -27,8 +28,6 @@ body {
 }
 
 .header__title {
-/*	margin-top: 0;
-	margin-bottom: 0;*/
 	text-align: center;
 	color: var(--white);
   -webkit-text-stroke: 1px black;
@@ -169,7 +168,6 @@ body {
 /* Pokedex Footer */
 .pokedex__footer {
 	height: 70px;
-	/*background-color: i;*/
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -212,7 +210,6 @@ body {
      inset 0 1px 0 0 rgba(black, 0.3);
 
   transition: transform 0.1s linear;
-  /*transform: translateZ(0);*/
 }
 
 .pokedex__footer button:active {
@@ -222,7 +219,6 @@ body {
 .pokedex__footer input {
 	background-color: rgb(67, 190, 144, 0.5);
 	border-radius: 10px;
-	/*padding: 0 10px;*/
 	height: 30px;
 	text-align: center;
 	letter-spacing: 5px;
@@ -231,95 +227,4 @@ body {
 .pokedex__footer input::placeholder {
 	color: rgb(0,0,0,0.6);
 	letter-spacing: 2px;
-}	
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* VAriables COlores por tipo de pokemon */
-/*.normal {
-  background-color: #bbbbac;
 }
-.poison {
-  background-color: #a85ca0;
-}
-.psychic {
-  background-color: #fa64b7;
-}
-.grass {
-  background-color: #8cd851;
-}
-.ground {
-  background-color: #ebc956;
-}
-.ice {
-  background-color: #96f1ff;
-}
-.fire {
-  background-color: #fa5543;
-}
-.rock {
-  background-color: #cebd72;
-}
-.dragon {
-  background-color: #8a76ff;
-}
-.water {
-  background-color: #56afff;
-}
-.bug {
-  background-color: #c3d21f;
-}
-.dark {
-  background-color: #8e6a56;
-}
-.fighting {
-  background-color: #a85645;
-}
-.ghost {
-  background-color: #756ec7;
-}
-.steel {
-  background-color: #c4c2d9;
-}
-.flying {
-  background-color: #79a4ff;
-}
-.electric {
-  background-color: #fee844;
-}
-.fairy {
-  background-color: #f9adff;
-}*/

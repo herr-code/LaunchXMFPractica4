@@ -51,9 +51,5 @@ const divInfo = (name, types, moves) => {
 
 // Accion
 button.addEventListener('click', () => {
-	// const pokeName = document.getElementById('pokeName');
-	// let pokeInput = pokeName.value;
-	// console.log("Hola" + pokeInput);
-
 	fetchPokemon();
 });
