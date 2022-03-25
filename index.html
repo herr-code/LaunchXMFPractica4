@@ -1,63 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- Favicon -->
-	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-	<link rel="manifest" href="assets/favicon/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-	<title>Pokedex | JS</title>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <title>Pokedex | JS</title>
 
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<header class="header">
-		<h1 class="header__title">Pokedex</h1>
-		<h1 class="header__title">Catch'em All</h1>
-	</header>
-	<main class="main">
-		<div class="pokedex">
-			<div class="pokedex__header">
-				<div class="pokedex-light"></div>
-				<div class="pokedex-led"></div>
-			</div>
-			<div class="pokedex__main">
-				<div class="pokedex-screen">
-					<div class="pokedex__image-container">
-        		<img src="assets/img/ball96.png" alt="Pokeball" id="pokeImg">
-        	</div>
-        	<div id="pokedex-info" class="pokedex__info">
-        	</div>
-				</div>
-			</div>
-			<div class="pokedex__footer">
-				<div class="pokedex-button">
-					<button id="button">Buscar</button>
-				</div>
-				<div class="pokedex__input">
-					<input type="text" placeholder="Enter the name" name="pokeName" id="pokeName">
-				</div>
-			</div>
-		</div>
-	</main>
+  <header class="header">
+    <h1 class="header__title">Pokedex</h1>
+    <h1 class="header__title">Catch'em All</h1>
+  </header>
+  <main class="main">
+    <div class="pokedex">
+      <div class="pokedex__header">
+        <div class="pokedex-light"></div>
+	<div class="pokedex-led"></div>
+      </div>
+      <div class="pokedex__main">
+        <div class="pokedex-screen">
+	  <div class="pokedex__image-container">
+	    <img src="assets/img/ball96.png" alt="Pokeball" id="pokeImg">
+	  </div>
+	  <div id="pokedex-info" class="pokedex__info"></div>
+	</div>
+      </div>
+      <div class="pokedex__footer">
+        <div class="pokedex-button">
+	  <button id="button">Buscar</button>
+	</div>
+	<div class="pokedex__input">
+	  <input type="text" placeholder="Enter the name" name="pokeName" id="pokeName">
+	</div>
+      </div>
+    </div>
+  </main>
 
-	<script src="js/scripts.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
